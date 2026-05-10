@@ -35,55 +35,12 @@
 *   **State Management:** [TanStack Query](https://tanstack.com/query/latest)
 *   **Video Meetings:** Jitsi Meet API
 
----
 
-## 🚀 البدء في العمل | Getting Started
-
-### المتطلبات الأساسية (Prerequisites)
-*   Node.js (نسخة 18 أو أحدث)
-*   حساب على Supabase
-
-### التثبيت (Installation)
-
-1. **استنساخ المشروع:**
-   ```bash
-   git clone <YOUR_REPOSITORY_URL>
-   cd arcane-attendance
-   ```
-
-2. **تثبيت المكتبات:**
-   ```bash
-   npm install
-   ```
-
-3. **إعداد المتغيرات البيئية:**
-   قم بإنشاء ملف `.env` في المجلد الرئيسي وأضف المفاتيح التالية:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   VITE_ADMIN_PASSWORD=your_secure_admin_password
-   ```
-
-4. **تشغيل المشروع:**
-   ```bash
-   npm run dev
-   ```
-
----
 
 ## 🛡️ الأمان والخصوصية | Security
 
 *   تم تفعيل نظام **Row Level Security (RLS)** في قاعدة البيانات لضمان عدم وصول أي مستخدم لبيانات الآخرين.
 *   التحقق البرمجي من إحداثيات GPS لمنع تطبيقات المواقع الوهمية (Fake GPS).
-
----
-
-## 👨‍💻 تطوير | Developed By
-
-**Eng. Walied Hamdy**
-*   Facebook
-*   Instagram
-*   WhatsApp
 
 ---
 © 2024 Kaizen System. All rights reserved.
